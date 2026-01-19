@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Code, Database, Brain, TrendingUp } from 'lucide-react';
 import Card from '../ui/Card';
 import { skills, skillCategories } from '../../data/skills';
+import AboutMe from '../../Images/AboutMe.jpg'
 
 const AboutSection = () => {
   const sectionRef = useRef(null);
@@ -66,9 +67,11 @@ const AboutSection = () => {
             <Card className="h-full">
               <div className="flex flex-col items-center text-center lg:text-left lg:flex-row gap-6">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-cyan-500 to-purple-500 p-1 flex-shrink-0">
-                  <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center text-6xl">
-                    👨‍💻
-                  </div>
+                  <img 
+                    src={AboutMe} 
+                    alt="Profile" 
+                    className="w-full h-full rounded-full object-cover bg-slate-800"
+                  />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-white mb-4">

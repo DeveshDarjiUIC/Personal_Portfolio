@@ -8,7 +8,7 @@ const HeroSection = () => {
   const [roleIndex, setRoleIndex] = useState(0);
   const roles = ['Data Scientist', 'ML Engineer', 'Data Engineer'];
   const fullText = "Hi, I'm ";
-  const name = "John Doe";
+  const name = "Devesh Darji";
 
   useEffect(() => {
     let currentIndex = 0;
@@ -62,8 +62,8 @@ const HeroSection = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in" style={{ animationDelay: '0.5s' }}>
-            I build intelligent systems and scalable data solutions that turn complex data 
-            into actionable insights. Passionate about machine learning, data engineering, 
+            I build intelligent software systems and scalable machine learning solutions that turn complex data 
+            into actionable business insights. Passionate about machine learning, data engineering, 
             and creating impact through technology.
           </p>
 

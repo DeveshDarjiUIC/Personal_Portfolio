@@ -1,11 +1,11 @@
 export const education = [
   {
     id: 1,
-    degree: 'Master of Science in Data Science',
-    institution: 'Stanford University',
-    location: 'Stanford, CA',
-    period: '2016 - 2018',
-    gpa: '3.9/4.0',
+    degree: 'Master of Science in Business Analytics',
+    institution: 'University of Illinois Chicago',
+    location: 'Chicago, IL',
+    period: '2024-2025',
+    gpa: '4.0/4.0',
     description: 'Specialized in Machine Learning and Statistical Modeling',
     coursework: [
       'Deep Learning',
@@ -16,17 +16,17 @@ export const education = [
   },
   {
     id: 2,
-    degree: 'Bachelor of Science in Computer Science',
-    institution: 'University of California, Berkeley',
-    location: 'Berkeley, CA',
-    period: '2012 - 2016',
+    degree: 'Bachelor of Technology in Electronics and Communication Engineering',
+    institution: 'SRM Institute of Science and Technology',
+    location: 'Chennai, India',
+    period: '2016-2020',
     gpa: '3.8/4.0',
-    description: 'Minor in Mathematics',
+    description: 'Computer Science Fundamentals and Engineering Principles',
     coursework: [
       'Algorithms & Data Structures',
-      'Database Systems',
-      'Artificial Intelligence',
-      'Linear Algebra'
+      'Computer Networks',
+      'Electrical Circuits',
+      'Microprocessors'
     ]
   }
 ];

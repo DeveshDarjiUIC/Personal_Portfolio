@@ -81,8 +81,7 @@ const AboutSection = () => {
                   </p>
                   <p className="text-gray-400 leading-relaxed">
                     I'm constantly learning and exploring new technologies in the rapidly evolving 
-                    fields of AI and data engineering. When I'm not coding, you'll find me contributing 
-                    to open-source projects or writing technical blog posts.
+                    fields of AI and data engineering. When I'm not coding, you'll find me traveling to new places and exploring advancements in physics.
                   </p>
                 </div>
               </div>

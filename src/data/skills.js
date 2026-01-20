@@ -9,14 +9,14 @@ export const skills = {
 export const skillCategories = [
   {
     name: 'Machine Learning',
-    items: ['Deep Learning', 'NLP', 'Computer Vision', 'Reinforcement Learning', 'Time Series Analysis']
+    items: ['PyTorch', 'LangChain', 'OpenCV', 'Hugging Face', 'Time Series Analysis']
   },
   {
     name: 'Data Engineering',
-    items: ['ETL Pipelines', 'Data Warehousing', 'Stream Processing', 'Data Modeling', 'Data Quality']
+    items: ['Databricks', 'PySpark', 'Kafka', 'Data Warehousing', 'ETL Pipelines']
   },
   {
     name: 'MLOps',
-    items: ['Model Deployment', 'CI/CD', 'Monitoring', 'A/B Testing', 'Feature Stores']
+    items: ['Airflow', 'CI/CD', 'Monitoring', 'A/B Testing', 'Prefect']
   }
 ];

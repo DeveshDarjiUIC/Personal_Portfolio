@@ -1,25 +1,25 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Senior Data Scientist',
-    company: 'TechCorp Analytics',
-    location: 'San Francisco, CA',
-    period: 'Jan 2022 - Present',
-    description: 'Leading ML initiatives and building scalable data pipelines for production systems.',
+    title: 'AI Engineer Intern',
+    company: 'CCC Intelligent Solutions',
+    location: 'Chicago, IL',
+    period: 'August 2025 - December 2025',
+    description: 'Developed a POC using split inference of vision model to significantly reduce latency and ensure security.',
     achievements: [
-      'Developed NLP models that improved customer sentiment analysis accuracy by 35%',
-      'Built and deployed real-time recommendation system serving 2M+ daily users',
-      'Led team of 4 data scientists in implementing MLOps best practices'
+      'Engineered split inference pipeline by spliting fine-tunes mobilenetv2 model into edge and cloud components',
+      'Ensured consistent model performance with no accuracy degradation post-split',
+      'Developed FastAPI wrapper for hosting the split model components'
     ],
-    technologies: ['Python', 'TensorFlow', 'AWS', 'Docker', 'Airflow']
+    technologies: ['PyTorch', 'ONNX', 'FastAPI', 'Docker', 'Cuda']
   },
   {
     id: 2,
-    title: 'Data Engineer',
-    company: 'DataFlow Solutions',
-    location: 'New York, NY',
-    period: 'Jun 2020 - Dec 2021',
-    description: 'Designed and maintained robust data infrastructure supporting analytics and ML teams.',
+    title: 'Solution Delivery Associate',
+    company: 'Deloitte',
+    location: 'Hyderabad, India',
+    period: 'Jun 2021 - Dec 2023',
+    description: 'Worked with Invesco',
     achievements: [
       'Architected data lake processing 500GB+ daily data with 99.9% uptime',
       'Reduced data pipeline processing time by 60% through optimization',

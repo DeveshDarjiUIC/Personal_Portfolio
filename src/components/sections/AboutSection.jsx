@@ -143,7 +143,7 @@ const AboutSection = () => {
           </div>
 
           {/* Tech Stack Tags */}
-          <Card className="p-6">
+          {/* <Card className="p-6">
             <h4 className="text-xl font-semibold text-white mb-6">Technologies I Work With</h4>
             <div className="space-y-6">
               {Object.entries(skills).map(([category, items], index) => (
@@ -165,7 +165,7 @@ const AboutSection = () => {
                 </div>
               ))}
             </div>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

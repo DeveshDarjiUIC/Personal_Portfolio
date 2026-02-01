@@ -25,20 +25,20 @@ export const experiences = [
       'Reduced data pipeline processing time by 60% through optimization',
       'Implemented automated data quality checks catching 95% of anomalies'
     ],
-    technologies: ['Python', 'Spark', 'Kafka', 'PostgreSQL', 'GCP']
+    technologies: ['Python', 'Spark', 'Kafka', 'PostgreSQL', 'AWS']
   },
   {
     id: 3,
-    title: 'Junior Data Scientist',
-    company: 'StartupAI Inc',
-    location: 'Boston, MA',
-    period: 'Jul 2018 - May 2020',
-    description: 'Worked on various ML projects from prototyping to production deployment.',
+    title: 'Software Engineer',
+    company: 'Infosys',
+    location: 'Mysore, India',
+    period: 'May 2020 - June 2021',
+    description: 'Developed and maintained data piplines for a incident response team.',
     achievements: [
-      'Created predictive models for customer churn reducing attrition by 25%',
-      'Developed automated reporting dashboards used by executive team',
-      'Collaborated with engineering team to productionize 5+ ML models'
+      'Engineered scalable Databricks ETL pipelines to automate SIEM data transformation',
+      'Utilized PySpark and SQL to transform and structure complex, unstructured real time event logs, for ML models',
+      'Maintained an end-to-end data pipeline to stream logs via Apache Kafka into Spark for processing, feeding the data to DataBricks'
     ],
-    technologies: ['Python', 'Scikit-learn', 'SQL', 'Tableau', 'Git']
+    technologies: ['Python', 'Databricks', 'SQL', 'Tableau', 'Git']
   }
 ];

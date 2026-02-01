@@ -92,7 +92,7 @@ const EducationSection = () => {
         </div>
 
         {/* Certifications */}
-        <div className="fade-on-scroll">
+        {/* <div className="fade-on-scroll">
           <h3 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
             <Award className="text-cyan-400" />
             Certifications
@@ -122,7 +122,7 @@ const EducationSection = () => {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
